@@ -1,13 +1,13 @@
-# Blog
+# Site template
 
-A simple blog built with [11ty](https://www.11ty.dev/) featuring:
+A simple & fast HTML site built with [11ty](https://www.11ty.dev/) featuring:
 
 - Markdown content with frontmatter
 - Wiki-style internal linking between pages using `[[links]]`
 - Docker containerization
 - Custom Nunjucks layouts
 
-Intended as a boilerplate for a personal blog or wiki based on an Obsidian-like workflow.
+Intended as a boilerplate for a personal blog/site/wiki based on an Obsidian-like workflow.
 Many options for customization and extension are available through the Eleventy ecosystem, see the [Eleventy documentation](https://www.11ty.dev/docs/) for more information.
 
 ## Development
