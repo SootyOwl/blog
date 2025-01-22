@@ -4,4 +4,5 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./content:/app/content
+      # Mount the content directory to the container (change the path to your content directory)
+      - ./example-content:/app/content  
