@@ -9,6 +9,6 @@ module.exports = (eleventyConfig) => {
     // Add an alias for the post layout
     eleventyConfig.addLayoutAlias("post", "mylayout.njk");
     // Set the input directory and copy the bundle.css file to the output directory
-    eleventyConfig.setInputDirectory("content");
-    eleventyConfig.addPassthroughCopy("content/bundle.css");
+    eleventyConfig.setInputDirectory("example-content");
+    eleventyConfig.addPassthroughCopy("example-content/bundle.css");
   };
